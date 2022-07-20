@@ -2,7 +2,6 @@ import logging
 import time
 from logging.handlers import TimedRotatingFileHandler
 import socket
-import json
 
 
 class TenXerLogger:
