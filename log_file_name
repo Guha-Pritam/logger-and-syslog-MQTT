@@ -1,0 +1,5 @@
+INFO : {'timestamp': 1658301557.5636125, 'hostname': 'DESKTOP-IH61O2P', 'message': 'this is for INFO'}
+INFO : {'timestamp': 1658301557.5636125, 'hostname': 'DESKTOP-IH61O2P', 'message': {'Name': 'Ubuntu', 'Version': '17.10', 'Install': 'apt', 'Owner': 'Canonical', 'Kernel': '4.13', 'tag': 'analytics'}}
+DEBUG : {'timestamp': 1658301557.5636125, 'hostname': 'DESKTOP-IH61O2P', 'message': 'this is for DEBUG'}
+WARNING : {'timestamp': 1658301557.5636125, 'hostname': 'DESKTOP-IH61O2P', 'message': 'this is for WARNING'}
+ERROR : {'timestamp': 1658301557.5636125, 'hostname': 'DESKTOP-IH61O2P', 'message': 'this is for ERROR'}
