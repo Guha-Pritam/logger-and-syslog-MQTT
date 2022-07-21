@@ -19,11 +19,7 @@ class TenXerLogger:
 
     def log_analytics(self, message):
         message['tag'] = 'analytics'
-        logging.info({
-            "timestamp": self.timestamp,
-            "hostname": self.hostname,
-            "message": message
-        })
+        logging.info({"timestamp": self.timestamp, "hostname": self.hostname, "message": message})
 
     def log_debug_prints(self, message):
         logging.debug({"timestamp": self.timestamp, "hostname": self.hostname, "message": message})
